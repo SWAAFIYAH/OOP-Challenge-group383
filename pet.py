@@ -20,7 +20,7 @@ class Pet:
     self.hunger += 2
 
   def get_status(self):
-    print(f"{self.name} | hunger: {self.hunger} | energy:{self.energy}|  happiness:{self.happiness}")
+    print(f"{self.name} | Hunger: {self.hunger} | Energy:{self.energy}|  Happiness:{self.happiness}")
 
 my_pet = Pet("cuty", 5,5,5)
 
